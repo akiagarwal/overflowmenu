@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.akshay_20.overflowm.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_red"
+            android:orderInCategory="1"
+            compat:showAsAction="never"
+            android:title="@string/red_string"/>
+        <item
+            android:id="@+id/menu_blue"
+            android:orderInCategory="2"
+            compat:showAsAction="never"
+            android:title="@string/blue_string"/>
+        <item
+            android:id="@+id/menu_green"
+            android:orderInCategory="3"
+            compat:showAsAction="never"
+            android:title="@string/green_string"/>
+        <item
+            android:id="@+id/settings"
+            android:orderInCategory="3"
+            compat:showAsAction="never"
+            android:title="@string/set_string"/>
+    </group>
+</menu>
